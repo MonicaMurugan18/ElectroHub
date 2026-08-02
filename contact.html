@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact ElectroHub | Reach Our Team</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="contact">
+  <div class="top-strip"><div class="container"><span><i class="fa-solid fa-phone"></i> +91 9944277662</span><span><i class="fa-solid fa-envelope"></i> support@electrohub.in | Mon-Sat: 9:00 AM - 7:00 PM</span></div></div>
+  <header class="navbar"><div class="container nav-wrap"><a class="logo" href="index.html">Electro<span>Hub</span></a><button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button><ul class="nav-links" id="navLinks"><li><a data-page="home" href="index.html">Home</a></li><li><a data-page="about" href="about.html">About</a></li><li><a data-page="products" href="products.html">Products</a></li><li><a data-page="services" href="services.html">Services</a></li><li><a data-page="warranty" href="warranty.html">Warranty</a></li><li><a data-page="shipping" href="shipping.html">Shipping</a></li><li><a data-page="returns" href="returns.html">Returns</a></li><li><a data-page="faq" href="faq.html">FAQ</a></li><li><a data-page="careers" href="careers.html">Careers</a></li><li><a data-page="contact" href="contact.html">Contact</a></li></ul><div class="nav-controls"><div class="search-wrap"><input id="globalSearch" type="text" placeholder="Search contact topics" /><button id="searchBtn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button></div></div></div></header>
+
+  <main>
+    <section class="hero"><div class="container"><span class="eyebrow">Contact Us</span><h1>Talk to ElectroHub sales and support specialists.</h1><p>We are here to help with product guidance, service requests, enterprise procurement, and partnership inquiries.</p></div></section>
+
+    <section class="section">
+      <div class="container card-grid">
+        <article class="card searchable-card reveal" data-search="address headquarters chennai"><h3>Address</h3><p>ElectroHub Headquarters<br />12 OMR Tech Corridor, Perungudi, Chennai, Tamil Nadu 600096, India</p></article>
+        <article class="card searchable-card reveal" data-search="phone call customer support"><h3>Phone</h3><p>+91 9944277662<br />+91 96000 11223 (Service Desk)</p></article>
+        <article class="card searchable-card reveal" data-search="email business support"><h3>Email</h3><p>support@electrohub.in<br />sales@electrohub.in<br />careers@electrohub.in</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header"><h2>Business Hours</h2></div>
+        <div class="card reveal"><p>Monday to Saturday: 9:00 AM to 7:00 PM<br />Sunday: 10:00 AM to 2:00 PM (Support Hotline Only)</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container card-grid" style="grid-template-columns:1.2fr 1fr;">
+        <div class="form-wrap reveal">
+          <h3 style="font-family:'Sora',sans-serif;margin-bottom:0.8rem;">Contact Form</h3>
+          <form id="contactForm" novalidate>
+            <div class="form-grid">
+              <div class="form-group"><label for="name">Full Name</label><input id="name" type="text" placeholder="Your name" /><small data-error="name"></small></div>
+              <div class="form-group"><label for="email">Email</label><input id="email" type="email" placeholder="you@example.com" /><small data-error="email"></small></div>
+              <div class="form-group"><label for="phone">Phone</label><input id="phone" type="tel" placeholder="+91 98XXXXXXXX" /><small data-error="phone"></small></div>
+              <div class="form-group"><label for="topic">Topic</label><select id="topic"><option value="Product Inquiry">Product Inquiry</option><option value="Service Request">Service Request</option><option value="Business Solutions">Business Solutions</option><option value="Partnership">Partnership</option></select><small></small></div>
+              <div class="form-group full"><label for="message">Message</label><textarea id="message" rows="5" placeholder="Tell us how we can help"></textarea><small data-error="message"></small></div>
+            </div>
+            <button class="btn btn-primary" type="submit" style="margin-top:0.6rem;">Send Message</button>
+            <p id="formStatus" style="margin-top:0.7rem;font-weight:700;"></p>
+          </form>
+          <p id="searchFeedback"></p>
+        </div>
+
+        <div class="card reveal">
+          <h3 style="font-family:'Sora',sans-serif;margin-bottom:0.8rem;">Google Maps Placeholder</h3>
+          <div class="map-placeholder">
+            <iframe
+              title="ElectroHub location map"
+              src="https://www.google.com/maps?q=Chennai&t=&z=12&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="260"
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-grid"><div><a class="logo" href="index.html">Electro<span>Hub</span></a><p style="margin-top:0.7rem;">ElectroHub is a full-service electronics company delivering premium devices and trusted after-sales support across India.</p></div><div><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="careers.html">Careers</a></li><li><a href="services.html">Services</a></li></ul></div><div><h4>Support</h4><ul><li><a href="warranty.html">Warranty</a></li><li><a href="shipping.html">Shipping</a></li><li><a href="returns.html">Returns</a></li><li><a href="faq.html">FAQ</a></li></ul></div><div><h4>Contact</h4><ul><li>12 OMR Tech Corridor, Chennai</li><li>+91 9944277662</li><li>support@electrohub.in</li></ul></div></div><div class="container footer-bottom"><span>Copyright © <span id="year"></span> ElectroHub. All rights reserved.</span><span>Privacy | Terms | Compliance</span></div></footer>
+  <button id="scrollTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
